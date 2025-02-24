@@ -1,0 +1,337 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "EV_ESC_rev01_1")
+		(date "04 Feb 2025")
+		(company "EV Electronics")
+		(comment 1 "Engineer: Eric Vann")
+		(comment 2 "Email: ericvann91@gmail.com")
+		(comment 3 "Phone: 5623942657")
+	)
+	(lib_symbols)
+	(text "EV_ESC_rev01_1"
+		(exclude_from_sim no)
+		(at 136.144 19.304 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "24d7bd79-dfb0-4e7a-b802-307902026757")
+	)
+	(sheet
+		(at 45.72 46.99)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ce530e8-5423-4eb0-8103-0ed9fc224346")
+		(property "Sheetname" "MCU"
+			(at 45.72 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 45.72 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 22.86)
+		(size 25.4 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4907b513-69b5-426e-8dc4-e9037157b530")
+		(property "Sheetname" "BLOCK_DIAGRAM"
+			(at 81.28 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLOCK_DIAGRAM.kicad_sch"
+			(at 81.28 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 21.59)
+		(size 21.59 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5674e641-e31a-43ec-8002-6ab90cc7d1b4")
+		(property "Sheetname" "OVERVIEW"
+			(at 46.99 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OVERVIEW.kicad_sch"
+			(at 46.99 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 86.36)
+		(size 24.13 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e3daac4-f8f4-4257-87bd-3410748b650b")
+		(property "Sheetname" "CAN"
+			(at 46.99 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 46.99 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 43.18)
+		(size 27.94 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b24dc67-74cc-42a3-8ed5-64aa85a30fc5")
+		(property "Sheetname" "MOSFETs"
+			(at 110.49 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETs.kicad_sch"
+			(at 110.49 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 46.99)
+		(size 24.13 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f506641-7df9-4d02-b7f8-365da85a6270")
+		(property "Sheetname" "MOSFET_Driver"
+			(at 78.74 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET_Driver.kicad_sch"
+			(at 78.74 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 88.9)
+		(size 30.48 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de82a1dc-9784-4698-953e-747bc129524a")
+		(property "Sheetname" "MECHANICAL"
+			(at 130.81 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MECHANICAL.kicad_sch"
+			(at 130.81 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 86.36)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e26ffb9f-f409-4a39-ab1f-882f96609d7b")
+		(property "Sheetname" "FILTERS"
+			(at 83.82 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FILTERS.kicad_sch"
+			(at 83.82 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EV_ESCproj"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
